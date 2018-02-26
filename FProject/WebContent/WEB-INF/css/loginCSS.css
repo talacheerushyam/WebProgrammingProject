@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body{
+	text-align: center;
+	vertical-align: middle;
+	background-color: red;
+}
+
+#mainDiv{
+	text-align: center;
+}
+
+#adminLoginDiv{
+	border: 2px solid black;
+	width:200px;
+	height:200px;
+	float: left;
+}
+#customerLoginDiv{
+	border: 2px solid black;
+	width:200px;
+	height:200px;
+	float: left;
+}
+#signUPDiv{
+	border: 2px solid black;
+	width:200px;
+	height:200px;
+	float: left;
+}

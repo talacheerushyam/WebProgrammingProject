@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+body {
+	margin:0;
+	font-family: fantasy;
+	background-image: url("backg.jpg");
+}
+h1{
+	text-align: center;
+}
+
+.sideLink{
+	padding: 5px;;
+	text-align: left;
+	float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 30px;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: gray;
+}
+
+.sidebar{
+	text-align: left;
+}
+
+.mainBookingDiv{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: large;
+}
+.bookingTable, .tableDiv{
+	text-align: center;
+	margin-left: 100px;
+	padding-left: 100px;
+}
+
+
+
+.finalLb{
+	text-align: center;
+	color: black;
+}
+
+#AjaxDiv{
+	text-align: center;
+}
+
+th, td{
+	border: 2px solid white;
+}
+
+.bookTickets, .booktable{
+	text-align: center;
+	margin-left: 100px;
+	padding-left: 100px;
+}
+#wireDiv, #ccDiv, #buyBtn, #buyDiv{
+	text-align: center;
+}
+
+.req{
+	color:red;
+	font-size: xx-small;
+}
+
+#cartTable, #cartDiv{
+	text-align: center;
+  margin-left: 15%;
+}
+
+#ccdiv{
+	text-align: center;
+  margin-left: 23%;
+}
+#cctable td{
+	width:150px;
+}
+#cctype{
+	color:red;
+}

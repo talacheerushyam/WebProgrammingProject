@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+body {
+	 background-image: url("backg.jpg");
+	margin:0;
+	font-family: fantasy;
+	}
+h1{
+	text-align: center;
+}
+
+.sideLink{
+	padding: 5px;;
+	text-align: left;
+	float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 30px;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: gray;
+}
+
+.sidebar{
+	text-align: left;
+}
+
+ li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+    top:55px;
+  }
+
+   li:hover ul {
+    display: block;
+  }
+
+   li ul li {
+    display: block;
+  }
+  
+  
+  .flights, .rentals, .parkings{
+  	width: 100%;
+  	height:250px;
+  	border: 2px solid black;
+  }
+  
+  .newFlightsDiv, .newFlightsTable{
+  text-align: center;
+  margin-left: 14%;
+  }
+  .newFlightsTable{
+  border: 2px solid black;
+  padding: 10px;
+  }
+  
+.NFtdL{
+  text-align: right;
+  font-weight: bold;
+  width:300px;
+  height:20px;
+  }
+  .NFtdR{
+  	text-align: left;
+  	width:300px;
+  	height:20px;
+  }
+  
+  .req{
+  	color: red;
+  	font-size: x-small;
+  }
+  
+  #ANameMsg, #FromPlaceMsg, #ToPlaceMsg, #DaysMsg, #FTMsg, #SeatsMsg, #BSeatsMsg, #FSeatsMsg,#ESeatsMsg, #BCostsMsg, #FCostsMsg, #ECostsMsg, #AllMsg{
+  	color: red;
+  	font-size: x-small;
+  }
+  
+.flightUpdateDiv{
+	text-align: center;
+  margin-left: 14%;
+  padding: 10px;
+  width:750px;
+}
+
+.flightUdateTable{
+	border: 2px solid black;
+	width:750px;
+}
+
+.flightUdateTable th, .UDTD{
+	border: 2px solid black;
+}
+#carnoMsg, #cartypeMsg, #carmakeMsg, #DaysMsg, #costMsg, #AllMsg{
+	color: red;
+  	font-size: x-small;
+}
+#ppDiv{
+	text-align: center;
+  margin-left: 14%;
+}
+
+#ppTable{
+	margin-left: 14%;
+	text-align: center;
+	border: 2px solid white;
+}
+#ppTable{
+	border-collapse: collapse;
+}
+#ppTable, #ppTable td,#ppTable th{
+	border: 2px solid white;
+} 
+
+#ppUpdateTable{
+	margin-left: 32%;
+	text-align: center;
+	border: 2px solid white;
+}
+
+#ppUpdateTable{
+	border-collapse: collapse;
+}
+#ppUpdateTable, #ppUpdateTable td,#ppUpdateTable th{
+	border: 1px solid black;
+}
+.requierd{
+	color: red;
+  	font-size: x-small;
+}

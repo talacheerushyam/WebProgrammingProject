@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body{
+	font-family:fantasy;
+	font-size:large;
+	background-image: url("backg.jpg");
+	width:100%;
+	height:100%;
+}
+
+.mainDiv{
+	padding: 20px;
+}
+
+#cmainDiv{
+	text-align: center;
+	margin-left: 20px;
+	margin-right:20px;
+	border: 2px solid white;
+	padding-bottom: 20px;
+}
+
+#crTable{
+	text-align: center;
+	margin:auto;
+}
+
+td {
+	width:180px;
+	height:25px;
+}
+
+.crtdL{
+	font-weight:bold;
+	text-align: right;
+}
+
+.crtdR{
+	text-align: left;
+}
+
+.requierd{
+	color: red;
+	font-weight:bold;
+	font-size:x-small;
+	text-align: left;
+}
+#usernameMsg, #npasswordMsg, #cpasswordMsg, #nameMsg, #emailMsg, #phMsg, #AllMsg{
+	color: red;
+	font-size:x-small;
+}
+
+
